@@ -14,6 +14,9 @@ export WEBHOOK_URL="https://n8n.yourdomain.com"
 export N8N_SECURE_COOKIE=false
 export N8N_PUSH_BACKEND=sse
 export N8N_EDITOR_BASE_URL="https://n8n.yourdomain.com"
+export N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
+export DB_SQLITE_POOL_SIZE=2
+export N8N_RUNNERS_ENABLED=true
 
 # Run your Node.js application
 n8n start
