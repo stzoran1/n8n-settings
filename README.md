@@ -12,7 +12,7 @@ N8N Settings for Laravel Forge
 7. Check if aws console exists and install if not
 8. Configure aws config and add IAM user with FullS3Access
 9. Run backup script to test
-10. Add running backup script in CRON
+10. Add running backup script in CRON: ```bash /home/forge/n8n-backups/n8n-backup.sh```
 
    
 
